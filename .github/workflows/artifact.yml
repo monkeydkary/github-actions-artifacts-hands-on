@@ -25,8 +25,11 @@ jobs:
     steps:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v8.0.1
-
         with:
-          name: ./artifacts
+          name: artifacts
       - name: cat the file
         run: cat ./artifacts/hello.txt
+      - name: list
+        run: |
+          ls -lart
+          pwd
