@@ -30,7 +30,7 @@ jobs:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v8.0.1
         with:
-          name: hello.txt
+          name: hello-artifact
           path: ./artifacts
       - name: list
         run: |
