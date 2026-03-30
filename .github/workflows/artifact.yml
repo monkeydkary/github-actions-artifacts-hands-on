@@ -37,4 +37,4 @@ jobs:
           ls -lart
           pwd
       - name: cat the file
-        run: cat ./artifact/hello.txt
+        run: cat ./artifacts/hello.txt
