@@ -33,4 +33,4 @@ jobs:
           name: hello-artifact
           path: ./artifacts/hello.txt
       - name: cat the file
-        run: cat ./hello-artifact/hello.txt
+        run: cat ./artifact/hello.txt
