@@ -32,5 +32,9 @@ jobs:
         with:
           name: hello-artifact
           path: ./artifacts/hello.txt
+      - name: list
+        run: |
+          ls -lart
+          pwd
       - name: cat the file
         run: cat ./artifact/hello.txt
